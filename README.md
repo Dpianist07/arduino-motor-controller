@@ -1,27 +1,23 @@
 # Arduino Motor Controller
 
-A motor controller project built using Arduino and an H-Bridge.
+A motor controller project using Arduino and an H-Bridge driver.
 
 ## Features
 
-* Controls DC motor direction
-* Controls motor speed using PWM
-* Uses an H-Bridge motor driver
-* Designed for robotics and automation projects
+* Single motor control
+* Dual motor control
+* PWM speed control
+* Reusable motor functions
+
+## Examples
+
+* Single Motor Example
+* Dual Motor Example
+* Advanced Controller with custom functions
 
 ## Hardware
 
 * Arduino
 * H-Bridge Motor Driver
-* DC Motor
+* DC Motors
 * External Power Supply
-
-## Project Structure
-
-* `motor_controller.ino` - Main program
-
-## Future Improvements
-
-* Bluetooth control
-* Wireless communication
-* Multiple motor support
